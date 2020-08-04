@@ -5,6 +5,6 @@ describe('webpack.base.js test case', () => {
 
   console.log(baseConfig);
   it('entry', () => {
-    assert.equal(baseConfig.entry.index, 'D:/frontEnd/geekbang/webpack/my-project/build-wepack/test/smoke/template/src/index/index.js')
+    assert.equal(baseConfig.entry.index, '/build-wepack/test/smoke/template/src/index/index.js')
   })
 })
