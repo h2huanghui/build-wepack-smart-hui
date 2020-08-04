@@ -1,0 +1,23 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-07-23 09:29:41
+ * @LastEditTime: 2020-07-24 17:22:26
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \my-project\src\search\index.html
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('raw-loader!./meta.html') %>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script><%= require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js') %></script>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- <script src="https://11.url.cn/now/lib/16.2.0/react.min.js"></script>
+    <script src="https://11.url.cn/now/lib/16.2.0/react-dom.min.js"></script> -->
+</body>
+</html>
