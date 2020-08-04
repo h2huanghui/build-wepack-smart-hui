@@ -2,17 +2,18 @@ language: node_js
 
 sudo: false
 
-cache: 
-  apt:true
-  directories: 
+cache:
+  apt: true
+  directories:
     - node_modules
 
 node_js: stable
 
-install: 
+install:
   - npm install -D
   - cd ./test/smoke/template
   - npm install -D
+  - cd ../../../
 
-scripts: 
+scripts:
   - npm test
